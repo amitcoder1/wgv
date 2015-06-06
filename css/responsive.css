@@ -1,0 +1,43 @@
+/* -------------- Custom responsive ------------------ */
+
+@media(min-width:768px) and (max-width:992px) {
+	.page-banner .container{width:100%;}
+	.page-banner .container .col-md-3.logo {width: 30%; float:left;}
+	.page-banner .container .col-md-9.navigation {width: 70%; float:left; padding:0px;}
+	.page-banner .container .col-md-9.navigation .navbar-collapse{padding-left:0px; padding-right:0px;}
+	.page-banner .container .col-md-9.navigation .nav > li > a{padding:15px 11px !important; font-size:29px;}
+	.slider-content .col-md-8.banner_test{width:30%;}
+	.page-banner .banner_test h3{font-size:28px;}
+	.slider-content .col-md-4.inovation_search{width:70% !important;margin-top:25px;}
+	.wgv_logo{left:45px;}
+}
+
+@media (min-width:879px) and (max-width:922px){
+	.page-banner .container .col-md-9.navigation .nav > li > a{font-size:24px !important;}
+	.page-banner .container .col-md-9.navigation .navbar .navbar-nav{margin-top:33px;}
+}
+
+@media (min-width:768px) and (max-width:878px){
+	.page-banner .banner_test h3{font-size:24px;}
+	.page-banner .container .col-md-9.navigation .nav > li > a{font-size:24px; padding:10px 8px !important;}
+}
+
+@media only screen and (max-width:768px){
+	.slider_banner{padding-top:0px;}
+}
+
+@media (min-width:400px) and (max-width:440px){
+	.latest-listing-pagination{font-size:18px;}
+	
+}
+@media only screen and (max-width:480px){
+.tree_branch{ width:100% !important;}
+	.bottom_year{ padding:38px 0 0 !important;}
+	.fst_event{ margin-left:-22px ;}
+	.right_event{ margin-right:-21px;}
+	.tree_branch h2{ margin-bottom:25px !important;}
+}
+@media only screen and (max-width:399px){
+	.latest-listing-pagination{font-size:14px;}
+	
+}
