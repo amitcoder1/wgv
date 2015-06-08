@@ -35,14 +35,13 @@
 </head>
 
 <body>
-<div class="story_wrapper">
 <!-- header section start here -->
-<div class="page-banner story_banner">
+<div class="page-banner" style="background:url(img/story_banner.png) no-repeat scroll center top / cover;">
 <div class="row clearfix header">	
     <div class="container">
-    <div class=" col-md-3 logo">
-    	<a href="#"><img src="img/logo.png" alt="" /></a>
-    </div>
+		<div class=" col-md-3 logo">
+			<a href="#"><img src="img/logo.png" alt="" /></a>
+		</div>
 		<div class="col-md-9 navigation">
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
@@ -54,10 +53,10 @@
 						<li><a href="latest.html">Latest</a></li>
                         <li><a href="initatives.html">INITATIVES</a></li>
 						<li><a href="#">Resources</a></li>
-                        <li><a href="new_latest">articles</a></li>
-						<li class="active"><a href="story.html">story</a></li>
-                        <li><a href="#">partners</a></li>
-						<li><a href="contact.html">contact</a></li>
+                        <li><a href="new_latest.html">Articles</a></li>
+						<li class="active"><a href="story.html">Story</a></li>
+                        <li><a href="#">Partners</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -66,7 +65,7 @@
 </div>
 <!-- header section end here -->
 <!-- slider banner start here -->
-<div class="slider-content">
+<div class="slider-content story_banner">
 	<div class="container">
     	<div class="col-md-8 banner_test">
             <p class="h_test">
@@ -74,19 +73,20 @@
                <h3>through</h3>
                <h3>demonstration</h3>
             </p>
-         </div>
-        <div class="col-md-4 inovation_search">
-        	<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">
-            <span class="glyphicon glyphicon-search yellow" aria-hidden="true"></span>
-            
-            <p class="last_search">
-            	<h4>WGV SALES INFORMATION</h4>
-            	<a class="right_arrow" href="#"><img src="img/right_arrow.png" alt="" /></a>
-            </p>
+            <a class="wgv_logo" href="#"><img src="img/wgv_logo.png" alt="" /></a>
         </div>
-        <div class="banner_logo">
-                <a href="#"><img src="img/wgv_logo.png" alt="" /></a>
-            </div>      
+        <div class="col-md-4 inovation_search">
+        	<div class="search-panel">
+				<span class="glyphicon glyphicon-search yellow" id="glyphicon-searchBox" aria-hidden="true" data-search="false"></span>
+				<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">				
+			</div>
+            <div class="banner-textpanel">
+				<p class="last_search">
+					<h4>WGV SALES INFORMATION</h4>
+					<a class="right_arrow" href="#"><img src="img/right_arrow.png" alt="" /></a>
+				</p>
+			</div>
+        </div>    
     </div>
 </div>
 <!-- slider banner end here -->
@@ -219,13 +219,6 @@
         </div>
     </div>
 </div>
-</div>
 <!-- footer end here -->
-
-		<script type="text/javascript">
-		$(function () {
-			$(".select-option").selectbox();
-		});
-		</script>
 </body>
 </html>

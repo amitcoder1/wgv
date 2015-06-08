@@ -35,8 +35,7 @@
 
 <body>
 <!-- header section start here -->
-<div class="latestarticle_wrapper">
-<div class="page-banner latest_new">
+<div class="page-banner" style="background:url(img/newlatest_banner.png) no-repeat scroll center top / cover;">
 <div class="row clearfix header">	
     <div class="container">
     <div class=" col-md-3 logo">
@@ -65,7 +64,7 @@
 </div>
 <!-- header section end here -->
 <!-- slider banner start here -->
-<div class="slider-content">
+<div class="slider-content latest_new">
 	<div class="container">
     	<div class="col-md-8 banner_test">
             <p class="h_test">
@@ -73,18 +72,19 @@
                <h3>through</h3>
                <h3>demonstration</h3>
             </p>
-       </div>
-       <div class="banner_logo">
-                <a href="#"><img alt="" src="img/wgv_logo.png"></a>
-            </div>
+            <a class="wgv_logo" href="#"><img src="img/wgv_logo.png" alt="" /></a>
+        </div>
         <div class="col-md-4 inovation_search">
-        	<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">
-            <span class="glyphicon glyphicon-search yellow" aria-hidden="true"></span>
-            
-            <p class="last_search">
-            	<h4>WGV SALES INFORMATION</h4>
-            	<a class="right_arrow" href="#"><img src="img/right_arrow.png" alt="" /></a>
-            </p>
+        	<div class="search-panel">
+				<span class="glyphicon glyphicon-search yellow" id="glyphicon-searchBox" aria-hidden="true" data-search="false"></span>
+				<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">				
+			</div>
+            <div class="banner-textpanel">
+				<p class="last_search">
+					<h4>WGV SALES INFORMATION</h4>
+					<a class="right_arrow" href="#"><img src="img/right_arrow.png" alt="" /></a>
+				</p>
+			</div>
         </div>    
     </div>
 </div>
@@ -244,6 +244,6 @@
     </div>
 </div>
 <!-- footer end here -->
-</div>
+
 </body>
 </html>

@@ -14,6 +14,7 @@
 	
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
 
   <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
   <!--[if lt IE 9]>
@@ -35,12 +36,12 @@
 
 <body>
 <!-- header section start here -->
-<div class="page-banner latest">
+<div class="page-banner" style="background:url(img/latest_bg.png) no-repeat scroll center top / cover;">
 <div class="row clearfix header">	
     <div class="container">
-    <div class=" col-md-3 logo">
-    	<a href="#"><img src="img/logo.png" alt="" /></a>
-    </div>
+		<div class=" col-md-3 logo">
+			<a href="#"><img src="img/logo.png" alt="" /></a>
+		</div>
 		<div class="col-md-9 navigation">
 			<nav class="navbar navbar-default" role="navigation">
 				<div class="navbar-header">
@@ -49,13 +50,13 @@
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a href="index.html">Home</a></li>
-						<li class="active"><a href="latest.html">Latest</a></li>
+						<li><a href="latest.html">Latest</a></li>
                         <li><a href="initatives.html">INITATIVES</a></li>
 						<li><a href="#">Resources</a></li>
-                        <li><a href="new_latest.html">articles</a></li>
-						<li><a href="story.html">story</a></li>
-                        <li><a href="#">partners</a></li>
-						<li><a href="contact.html">contact</a></li>
+                        <li><a href="new_latest.html">Articles</a></li>
+						<li class="active"><a href="story.html">Story</a></li>
+                        <li><a href="#">Partners</a></li>
+						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -64,7 +65,7 @@
 </div>
 <!-- header section end here -->
 <!-- slider banner start here -->
-<div class="slider-content">
+<div class="slider-content latest">
 	<div class="container">
     	<div class="col-md-8 banner_test">
             <p class="h_test">
@@ -76,7 +77,6 @@
         </div>
         <div class="col-md-4 inovation_search">
         	<div class="search-panel">
-
 				<span class="glyphicon glyphicon-search yellow" id="glyphicon-searchBox" aria-hidden="true" data-search="false"></span>
 				<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">				
 			</div>

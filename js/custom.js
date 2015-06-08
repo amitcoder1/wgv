@@ -1,6 +1,5 @@
 jQuery(document).ready(function(){
-	/*$('#exampleInputEmail1').addClass('hideMe');
-	$('#exampleInputEmail1').css('visibility','hidden');*/
+	$(".select-option").selectbox();
 	$('.top_button a').click(function(){
 		$('body,html').animate({
 				scrollTop: 0
@@ -17,15 +16,4 @@ jQuery(document).ready(function(){
 			jQuery('#glyphicon-searchBox').data('search',false);
 		}
 	});
-	/* $('#glyphicon-searchBox').click(function(){
-		if($('#exampleInputEmail1').hasClass('hideMe')){
-			$('#exampleInputEmail1').addClass('showMe');
-			$('#exampleInputEmail1').removeClass('hideMe');
-			$('#exampleInputEmail1').css({opacity: "1.0", visibility: "visible"}).animate({opacity: 1}, 200);
-		}else{
-			$('#exampleInputEmail1').addClass('hideMe');
-			$('#exampleInputEmail1').removeClass('showMe');
-			$('#exampleInputEmail1').css({opacity: "1.0", visibility: "hidden"}).animate({opacity: 1}, 200);
-		}
-	}); */
 });
