@@ -26,6 +26,10 @@
 	.slider_banner{padding-top:0px;}
 }
 
+@media only screen and (max-width:767px){
+	.img--scale {display:block;}
+}
+
 @media (min-width:400px) and (max-width:440px){
 	.latest-listing-pagination{font-size:18px;}
 	

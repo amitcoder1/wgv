@@ -32,69 +32,62 @@
 	<script type="text/javascript" src="js/scripts.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
 	<script type="text/javascript" src="js/jquery-ui.js"></script>
+	<script type="text/javascript" src="js/modenizer-min.js"></script>
+	<script type="text/javascript" src="js/video-playes.js"></script>
+	<script type="text/javascript" src="js/jquery.selectbox-0.2.js"></script>
+	
 </head>
 
 <body>
-<div class="page-banner" style="background:url(img/slider_bg.png) no-repeat scroll center top / cover; min-height:500px">
+<div class="page-banner">
 <!-- header section start here -->
-<div class="row clearfix header">	
-    <div class="container">
-    <div class=" col-md-3 logo">
-    	<a href="#"><img src="img/logo.png" alt="" /></a>
-    </div>
-		<div class="col-md-9 navigation">
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="navbar-header">
-					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#"></a>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="latest.html">Latest</a></li>
-                        <li><a href="initatives.html">INITATIVES</a></li>
-						<li><a href="#">Resources</a></li>
-                        <li><a href="new_latest.html">articles</a></li>
-						<li><a href="story.html">story</a></li>
-                        <li><a href="#">partners</a></li>
-						<li><a href="contact.html">contact</a></li>
-					</ul>
-				</div>
-			</nav>
+	<div class="row clearfix header video-header">	
+		<div class="container">
+		<div class=" col-md-3 logo">
+			<a href="#"><img src="img/logo.png" alt="" /></a>
+		</div>
+			<div class="col-md-9 navigation">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="navbar-header">
+						 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#"></a>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="latest.html">Latest</a></li>
+							<li><a href="initatives.html">INITATIVES</a></li>
+							<li><a href="#">Resources</a></li>
+							<li><a href="new_latest.html">articles</a></li>
+							<li><a href="story.html">story</a></li>
+							<li><a href="#">partners</a></li>
+							<li><a href="contact.html">contact</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</div>
 	</div>
-</div>
-<!-- header section end here -->
-<!-- slider banner start here -->
-<div class="slider-content home-page">
-	<div class="container">
-    	<div class="col-md-8 banner_test" style="position:static;">
-            <p class="h_test">
-               <h3>innovation</h3>
-               <h3>through</h3>
-               <h3>demonstration</h3>
-            </p>
-            <a class="wgv_logo" href="#"><img src="img/wgv_logo.png" alt="" /></a>
-        </div>
-        <div class="col-md-4 inovation_search">
-        	<div class="search-panel">
-
-				<span class="glyphicon glyphicon-search yellow" id="glyphicon-searchBox" aria-hidden="true" data-search="false"></span>
-				<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">				
-			</div>
-            <div class="banner-textpanel"><h2>a new generation of living for w.a.</h2>
-
-				<p class="innovation_test">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-				<p class="last_search">
-					<h4>WGV SALES INFORMATION</h4>
-					<a class="right_arrow" href="#"><img src="img/right_arrow.png" alt="" /></a>
-				</p>
-			</div>
-        </div>    
-    </div>
-</div>
+	<!-- header section end here -->
+	<!-- slider banner start here -->
+	<div class="video-controls" style="display: block; top: 589px;">
+		<button class="video-button js-play-video" type="button">
+			<span aria-hidden="true" class="icon icon-play"></span>
+			<span class="visuallyhidden"><img src="img/play-arrow.png" /></span>
+		</button>
+		<button class="video-button js-pause-video" type="button">
+			<span aria-hidden="true" class="icon icon-pause"></span>
+			<span class="visuallyhidden"><img src="img/stop-arrow.png" /></span>
+		</button>
+	</div>
+	<div class="slider-content home-banner-video">
+		<div class="video-container" data-url1="assets/videos/wgv_video.mp4"data-url2="assets/videos/wgv_video.webm"></div>
+		<img id="banner__img" class="img--scale" alt="banners" src="img/banners_tomato.jpg">
+		<div class="video-overlay" style="height: 689px;"></div>
+	</div>
 <!-- slider banner end here -->
 </div>
 <!-- body content start here -->
+<div class="body-content-section">
 <div class="body_content">
 	<div class="container">
     	<h4>White Gum Valley's initiatives for an</h4>
@@ -232,6 +225,7 @@ Updated: 14 April 2015</p>
         <div class="clearfix"></div>
         	<h3 class="bottom_text">More about #innovationwgv partners</h3>
     </div>
+</div>
 </div>
 <!--  body background end here -->
 <!-- footer start here -->
