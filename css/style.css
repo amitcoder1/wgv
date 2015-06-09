@@ -63,7 +63,7 @@ a{ text-decoration:none;}
 .yellow1{ padding: 8px 7px; width: 40px; margin-top:-1px; background:#ffed00; color:#000; font-size:14px;}
 .inovation_search h2{ text-transform:uppercase; font-family:'CactusMedium-Regular'; font-size:45px; color:#ffed00; width:80%; margin-top:26px; margin-bottom:15px;}
 .innovation_test{font-family:'Helvetica-Regular'; font-size:16px; line-height:15px; color:#fff; width:211px; margin-bottom:29px;}
-.inovation_search h4{ clear:both; color:#000; background:#ffeb00; font-family:'CactusMedium-Regular'; font-size:24px; float:left; padding:7px 23px;}
+.inovation_search h4{ clear:both; color:#000; background:#ffeb00; font-family:'CactusMedium-Regular'; font-size:24px; float:left; padding:7px 26px;}
 .right_arrow{ float:left; padding:6.5px 10px; background:#fff; width:44px; text-align:center;}
 .last_search{ margin-top:5px;}
 .partner-brands {float: left;padding: 0 75px;width: 100%;}
@@ -74,7 +74,7 @@ a{ text-decoration:none;}
 /* ------------------ Search box css ------------------ */
 .slide_search{
 	width:0%;
-	max-width:199px;
+	max-width:203px;
 	-webkit-transition: width 0.3s ease-in-out;
 	-moz-transition: width 0.3s ease-in-out;
 	-o-transition: width 0.3s ease-in-out;
@@ -150,6 +150,30 @@ a{ text-decoration:none;}
 .margin_bottm{ margin-bottom:45px;}
 .bottom_text{ font-family:'CactusBold-Regular'; font-size:34px; text-align:center; color:#000; margin-top:45px; margin-bottom:50px;}
 .video_img{ margin-top:30px;}
+
+/* ---------- Options button animmation start here ----------- */
+
+.initiative-community-opt{width:110px; height:110px; background-size:cover !important;}
+.initiative-community-opt:hover{width:110px; height:110px; background-size:cover;}
+.community-opt{width:168px; height:168px; background-size:cover !important;}
+.community-opt:hover{width:168px; height:168px; background-size:cover;}
+
+.opt-water{background:url(../img/lamp.png);}
+.opt-energy{background:url(../img/tube.png);}
+.opt-community{background:url(../img/hand_shake.png);}
+.opt-landscape{background:url(../img/tri.png);}
+.opt-planet{background:url(../img/map.png);}
+.opt-house{background:url(../img/home.png);}
+
+.opt-water:hover{background:url(../img/animations/water.gif) no-repeat; background-size:cover;}
+.opt-energy:hover{background:url(../img/animations/light.gif) no-repeat; background-size:cover;}
+.opt-community:hover{background:url(../img/animations/hand-shake.gif) no-repeat; background-size:cover;}
+.opt-landscape:hover{background:url(../img/animations/landscape.gif) no-repeat; background-size:cover;}
+.opt-planet:hover{background:url(../img/animations/planet.gif) no-repeat; background-size:cover;}
+.opt-house:hover{background:url(../img/animations/home.gif) no-repeat; background-size:cover;}
+/* ----------- Options button animmation end here ----------- */
+
+
 /************* body content css end here ***********/
 /************* footer css start here ***************/
 .footer{ background:#000; min-height:495px;}
@@ -260,11 +284,11 @@ a{ text-decoration:none;}
 .topsearch{ float:right;}
 .initiative_banner .inovation_search{ background:none;}
 .initiative_search{ background:none; padding:0px; float:right; margin-top:40px;} 
-.initiative_body{ width:100%; padding-top:30px; }
+.initiative_body{ width:100%; padding-top:30px; /*background:url(../img/initiative_bg.png); background-size:cover;*/}
 .social_machins{ width:730px; margin:0px auto;}
 .initiative_minrals{ text-align:center; margin-top:25px;}
 .initiative_minrals h2{ font-family:'CactusMedium-Regular'; font-size:20px; text-transform:uppercase; color:#000; margin-top:15px;}
-.banner_logo{ clear: both; left: 0; position: absolute; right: 0; text-align: center; top: 307px;}
+.banner_logo{ clear: both; text-align: center; width:97%; float:left;}
 .initiative_living{ margin-top:70px; width:100%; clear:both; float:left; margin-bottom:50px;}
 .left_side h2{ font-family:'CactusMedium-Regular'; font-size:64px; text-transform:uppercase; float:left; margin-bottom:40	px;}
 .left_side span{ font-family:'CactusBold-Regular'; font-size:120px; text-transform:uppercase; float:right; padding-left:15px;}
@@ -288,7 +312,7 @@ a{ text-decoration:none;}
 .pdf_files h2{ font-size:32px; font-family:'CactusMedium-Regular'; margin-bottom:20px;}
 .second_box{float: left; margin-bottom: 10px; width: 315px; margin-top:6px;}
 .pdf_img{ float:left; margin-right:8px;}
-.pdf_text{ background:#ffed00; float: left; padding:5px 9px 4px 9px;}
+.pdf_text{ background:#ffed00; padding:0px 9px 4px 9px; margin-left:35px;}
 .pdf_text a{ font-size:16px; font-family:'Helvetica-Regular'; color:#000; text-decoration:underline;}
 .second_box span{ clear:both;  font-size:11px; font-family:'Helvetica-Regular'; float:left; padding-left:40px;}
 .button_resource{background: hsl(0, 0%, 0%) none repeat scroll 0 0; border: 1px solid; clear: both; float: left; padding: 6px 0 6px 15px; width: 141px;}
@@ -300,7 +324,7 @@ a{ text-decoration:none;}
 .latestarticle_wrapper .banner_logo{ top:336px;}
 /*.latest_new{ background:url(../img/newlatest_banner.png) no-repeat scroll center top / cover;}*/
 .latest_new .inovation_search{ background:none;}
-.newlatest_wrapper{ width:100%; padding:67px 0px;}
+.newlatest_wrapper{ width:100%; padding:67px 0px; /*background:url(../img/latest_article.png); background-size:cover;*/}
 .new_latest{ width:840px; margin:0px auto;}
 .page_heading{ width:546px;  font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; margin-bottom:25px; padding-left:90px;}
 .date_format{ font-size:10px; font-family:'Helvetica-Regular'; margin-top:42px;}
@@ -332,7 +356,7 @@ a{ text-decoration:none;}
 .story_wrapper .banner_logo{ top:339px;}
 /*.story_banner{ background:url(../img/story_banner.png) no-repeat scroll center top / cover;}*/
 .story_banner .inovation_search{ background:none !important;}
-.story_section{ width:100%; padding:70px 0px;}
+.story_section{ width:100%; padding:70px 0px; /*background:url(../img/story_bg.png);*/}
 .story_head{ font-size:120px; font-family:'CactusMedium-Regular'; border-bottom:10px solid #ffed00; padding-left:30px; padding-bottom:6px;}
 .left_wrapper p{ color:#787878; font-size:16px; font-family:'Helvetica-Regular'; margin-top:23px; margin-left:30px; line-height:24px; margin-bottom:15px;}
 .build_img{ margin-left:0px !important;}
@@ -374,3 +398,29 @@ a{ text-decoration:none;}
 .img--scale {height:auto;margin-left: 0;width: 100%; display:none;}
 .video-overlay {background-color: rgba(0, 0, 0, 0.3);background-image: url("../static/images/layout/dotpattern-70percent.png");background-repeat: repeat;height: auto;left: 0;position: absolute;top: 0;width: 100%;z-index: 1500;}
 .body-content-section{background:#ffffff;}
+/************* land page css start here *************/
+.land_section{ width:100%; padding:35px 0px;}
+.land_content h2{ margin-bottom:15px; text-transform:uppercase; font-size:62px; font-family:'CactusBold-Regular' }
+.our_devlopment{ text-align:center; background:#ffed00; border-radius:4px; width:14%; margin-right:28px; padding:20px 0px;}
+.our_devlopment h2{ font-size:32px; font-family:'CactusBold-Regular'; color:#333;}
+.our_devlopment a{ text-decoration:none; text-transform:capitalize; color:#333;}
+#map-canvas {width:auto;  height: 400px;}
+.map_section{ padding:30px 0px;}
+.map_zoom{ margin-top:15px;}
+.location_details p{ font-size:18px; font-family:'Helvetica-Regular'; line-height:30px;}
+.location_details ul{ margin-top:15px;} 
+.location_details li{font-size:16px; font-family:'Helvetica-Regular'; line-height:30px;}
+.popup_buttons{ margin-top:20px;}
+.north{ width:190px; font-size:14px; font-family:'Helvetica-Regular'; background:#ffed00; border:none;}
+.west{ clear:both; margin-top:20px; width:190px; font-size:14px; font-family:'Helvetica-Regular'; background:#ffed00; border:none;}
+
+.construction{ width:100%; clear:both; margin-top:20px;} 
+.construction h2{ font-size:36px; font-family:'CactusMedium-Regular';}
+.construction p{ font-size:16px; font-family:'Helvetica-Regular'; margin-top:10px;}
+.register_update{ margin-top:100px;}
+.register{ width:190px; background:#ffed00; border:none; font-size:14px; font-family:'Helvetica-Regular';}
+.register:hover{ background:#000; color:#fff;}
+.north:hover{ background:#000; color:#fff;}
+.west:hover{ background:#000; color:#fff;}
+.white-popup {position: relative;background: #FFF;padding: 40px;width: auto;max-width: 200px;margin: 20px auto;text-align: center;}
+/*--------------- Land page css ends here -------------*/

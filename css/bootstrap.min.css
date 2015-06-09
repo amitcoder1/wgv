@@ -5155,6 +5155,8 @@ th.hidden-lg, td.hidden-lg {
 .additional_padding{ margin-left:0px !important;}
 .width50{ width:100% !important;}
 .black_box{ margin-bottom:25px; margin-top:20px !important;}
+.footer-nav-panel{ padding-left:0px !important;}
+.top_button{ padding-left:0px !important;}
 .footer_logo{ text-align:center; margin-top:30px !important;}
 .footer_logo a{ float:none !important;}
 .footer_htest{ margin-left:0px !important; margin-top:20px;}
@@ -5168,9 +5170,9 @@ th.hidden-lg, td.hidden-lg {
 .feedback{ padding:10px !important;}
 .body_background{ background:none !important;}
 .banner_test{ float:left; width:100%; margin-bottom:10px;}
-.inovation_search{ padding:18px 0 65px 17px !important;}
-.slide_search{ height:28px !important; margin-bottom:10px;}
-.yellow{ padding:5px 7px !important; float:left;}
+.inovation_search{ padding:18px 0 65px 17px !important; float:left;}
+.slide_search{ height:38px !important; margin-bottom:10px;}
+.yellow{ padding:10px 7px !important; float:left;}
 .inovation_search h2{ font-size:32px !important; clear:both;}
 .slider_banner h3{ font-size:16px !important;}
 .contact_banner h3{ font-size:16px !important;}
@@ -5184,7 +5186,15 @@ th.hidden-lg, td.hidden-lg {
 .bottom_text{ margin-top:0px !important; font-size:26px !important; margin-bottom:30px !important;}
 .right_arrow{ width:36px !important;}
 .latest_wrapper{ background:none !important;}
+.banner_test{ float:left; width:100%; margin-bottom:4px; margin-top:5px !important;}
+.inovation_search h4{ padding:7px 29px !important;}
+.banner_test h3{ font-size:26px !important; border-bottom:3px solid #fff200!important;}	
+.footer_htest h3{ font-size:16px !important; line-height:20px !important;}
+.sbHolder{ width:90% !important;}
+.contact_fields{ margin-top:7px !important;} 
 /********latest page 320px media start here*********/
+.latest_topics{ padding-left:0px !important; margin-bottom:15px;}
+.latest_information{ padding:25px 0 0 !important;}
 .about_head{ font-size:30px !important;}
 .water_head{ font-size:44px !important; }
 .articles{ margin-top:15px; margin-bottom:25px !important;}
@@ -5192,6 +5202,10 @@ th.hidden-lg, td.hidden-lg {
 .articles p{ font-size:14px !important; margin-top:5px;}
 .latest_buttons h2{ margin-top:10px !important;}
 .energy_buttons h2{ font-size:26px !important;}
+.latest-listing-pagination{ text-align:center !important;}
+.latest-listing-pagination .page-no{ padding:4px 3px 3px !important;}
+.pagination-operations{ padding-bottom:4px;} 
+.pagination-operations.next{ padding-bottom:4px !important;}
 /********latest page 320px meadia end here*****/
 /******** initatives page css start here *******/
 .social_machins{ width:100% !important;}
@@ -5213,6 +5227,7 @@ th.hidden-lg, td.hidden-lg {
 .margin_left{ margin:0px !important;}
 .second_search{ clear:both;}
 .latestarticle_wrapper .banner_logo{ top:435px !important;}
+.banner_logo{ position:absolute; bottom:-33px !important;}
 .banner_logo img{ width:24% !important;}
 .leftfloat{ margin-left:0px !important;}
 /******** new latest page end ******************/
@@ -5227,6 +5242,9 @@ th.hidden-lg, td.hidden-lg {
 .left_wrapper .prevarticle { font-size: 24px !important;  width: 170px !important;}
 .story_banner{ min-height:400px;}
 /******** story page css end here **************/
+/******** land page css here ******************/
+.our_devlopment{ width:42% !important; margin-right:15px; float:left; margin-bottom:15px;} 
+/******** land page css end here **************/
 }
 @media(min-width:768px) and (max-width:991px) {
 .hidden-lg.hidden-sm, tr.hidden-lg.hidden-sm, th.hidden-lg.hidden-sm, td.hidden-lg.hidden-sm {
@@ -5239,7 +5257,7 @@ display:none!important;}
 .logo{ text-align:center;}
 .navigation{ margin-top:0px !important;}
 .bottom_text{ margin-top:0px !important; font-size:26px !important; margin-bottom:30px !important;}	
-.banner_test{ float: left; margin-top: 70px; width: 100%;}
+.banner_test{ float: left; margin-top: 70px; width:36% !important;}
 .slider_banner .wgv_logo{ float: right !important; margin-top: -13% !important;}
 .latest .wgv_logo{ float: right !important; margin-top: -13% !important;}
 .slider_banner .inovation_search{ margin-top:104px !important; float:left;}
@@ -5252,7 +5270,8 @@ display:none!important;}
 .slider_banner .wgv_logo img{ max-width:45% !important;}
 .contact_banner .wgv_logo img{ max-width:14% !important;}
 .h_test{ float:left; padding-top:0px !important;}
-.inovation_search{ margin-top:90px !important; width:100% !important; float:left;}
+.inovation_search{ margin-top:60px !important; width:100% !important; float:left; padding:25px 10px 46px 20px !important;}
+.inovation_search h2{ font-size:36px !important;}
 .initative_wrapper .inovation_search{ margin-top:-90px !important; width:100% !important; float:left;}
 .latest .inovation_search{ margin-top:50px !important;}
 .latest .right_arrow{ padding:7px 10px !important;}
@@ -5266,6 +5285,7 @@ display:none!important;}
 .contact_wrapper{ background:none !important; border:none !important;}
 .contact_banner .inovation_search{ margin-top:6px !important;}
 .contact_banner .wgv_logo{ float:none !important;}
+.contact_fields{ margin-top:7px !important;} 
 .stay_inform{ font-size:55px !important;}
 .feedback{ font-size:55px !important;}
 .contact_form h2{ font-size:55px !important;}
@@ -5284,20 +5304,30 @@ display:none!important;}
 .second_search{ clear:both;}
 .left_wrapper .social_nav{ margin-bottom:30px !important;}
 .banner_logo img{ width:15% !important;}
-.banner_logo{ top:407px !important;}
+.banner_logo{margin-top:89px !important;}
 .tree_branch{ margin:0px auto;}
 .left_wrapper{ width:100% !important;}
+.our_devlopment{ margin-bottom: 15px; margin-right: 41px; width: 44% !important; float:left;}
+.latest_topics{ float: left; margin-bottom: 15px; margin-top: 15px; padding-left:0px !important; width: 100%;}
+.energy_buttons{ float:left;}
+.latest_buttons{float: left;  margin-left: 70px;  margin-top: -43px; clear:none !important;}
+.latest-listing-pagination{ text-align:center !important;}
+.top_button{ padding-left:0px !important;}
+.story_section{ padding:30px 0px !important;}
+.story_head{ font-size:80px !important;}
+.banner_logo{ position:absolute;  bottom:-25px !important;}
 }
 @media(min-width:992px) and (max-width:1199px) {
 .hidden-lg.hidden-md, tr.hidden-lg.hidden-md, th.hidden-lg.hidden-md, td.hidden-lg.hidden-md {
 display:none!important;}
+.top_button{ padding-left:0px !important;}
 .slide_search{ width:148px !important;}
 .slide_search1{ width:148px !important;}
 .inovation_search h2{ font-size:26px !important;}
 .navigation li a{ font-size:28px !important;}
 .right_arrow{padding: 3.5px 10px !important; width: 38px !important;}
 .innovation_test{ margin-bottom:17px!important;}
-.inovation_search{ padding:0 45px 13px 80px !important; background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important;}
+.inovation_search{  background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important;}
 .initative_wrapper .inovation_search{ background:none !important;}
 .banner_test .wgv_logo{ margin-top:15% !important;}
 .banner_test .inovation_search{ padding-top:60px !important;}
@@ -5331,13 +5361,20 @@ display:none!important;}
 .social_nav{ float:right !important; }
 .watch_progress{ float:none !important;}
 .banner_logo img{ width:15% !important;}
-.banner_logo{ top:385px !important;}
+.banner_logo{ margin-top:25px;}
+.our_devlopment{ margin-right:24px !important;}
+.latest_topics{ padding-left:45px !important;}
+.contact_fields{ margin-top:5px !important;} 
+.banner_logo{ position:absolute;  bottom:-32px !important;}
 }
 @media(min-width:1200px) {
 .hidden-lg, tr.hidden-lg, th.hidden-lg, td.hidden-lg {
-display:none!important
+display:none!important;}
+.banner_logo{ display:none;}
 
 }
+@media(max-width:1200px) {
+.wgv_logo{ display:none;} 
 }
 .visible-print, tr.visible-print, th.visible-print, td.visible-print {
 	display:none!important
@@ -5358,7 +5395,7 @@ th.visible-print, td.visible-print {
 }
 @media(max-width:479px) {
 .logo img{ max-width:65% !important;}
-.footer_wgv{ float:none !important;}
+
 .nav_button{ margin-top:-22px !important;}
 .planet_minrals{ width:100% !important;}
 .yellow_tags a{ font-size:11px !important;}
@@ -5373,12 +5410,16 @@ th.visible-print, td.visible-print {
 .right_event{ margin-right:0px !important;}
 .fst{ clear:both; margin-top:15px !important; float:left !important;}
 .bottom_year{ color:#333 !important;} 
-.banner_logo{ top:341px !important;}
+.story_banner .banner_logo{ top:463px !important; position:absolute;}
+.banner_logo{ top:426px !important; position:absolute;}
 .tree_branch h2{ color:#333 !important;}
 .story_section{ padding:40px 0px !important;}
 .fst_event span{ display:none !important;}
 .right_event{ float:none !important;}
 .footer{ padding-bottom:25px;}
 .footer_htest{ margin-bottom:20px !important;}
-.fst_event a{ margin-top:15px;} 
+.footer_wgv{ text-align:center; float:none !important;}
+.fst_event a{ margin-top:15px;}
+.our_devlopment{ width:100% !important; margin-bottom:15px;}
+.latest-listing-pagination{ text-align:left !important;}  
 }

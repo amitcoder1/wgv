@@ -8,7 +8,7 @@
 	.page-banner .container .col-md-9.navigation .nav > li > a{padding:15px 11px !important; font-size:29px;}
 	.slider-content .col-md-8.banner_test{width:30%;}
 	.page-banner .banner_test h3{font-size:28px;}
-	.slider-content .col-md-4.inovation_search{width:70% !important;margin-top:25px;}
+	.slider-content .col-md-4.inovation_search{float: right; margin-top: 73px; width:40% !important;}
 	.wgv_logo{left:45px;}
 }
 
@@ -40,8 +40,12 @@
 	.fst_event{ margin-left:-22px ;}
 	.right_event{ margin-right:-21px;}
 	.tree_branch h2{ margin-bottom:25px !important;}
+	.banner_logo{ position:absolute; bottom:-26px !important;}
 }
 @media only screen and (max-width:399px){
 	.latest-listing-pagination{font-size:14px;}
 	
+}
+@media only screen and (max-width:350px){
+.banner_logo{ top:432px !important; position:absolute;}
 }

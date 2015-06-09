@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>concept</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+</head>
+
+<body>
+<!-- header section start here -->
+<div class="page-banner contact_banner">
+<div class="row clearfix header">	
+    <div class="container">
+    <div class=" col-md-3 logo">
+    	<a href="#"><img src="img/logo.png" alt="" /></a>
+    </div>
+		<div class="col-md-9 navigation">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle nav_button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="latest.html">Latest</a></li>
+                        <li><a href="initatives.html">INITATIVES</a></li>
+						<li><a href="#">Resources</a></li>
+                        <li><a href="#">land</a></li>
+						<li><a href="#">story</a></li>
+                        <li><a href="#">partners</a></li>
+						<li class="active"><a href="contact.html">contact</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+</div>
+<!-- header section end here -->
+<!-- slider banner start here -->
+<div class="slider-content">
+	<div class="container">
+    	<div class="col-md-8 banner_test">
+            <p class="h_test">
+               <h3>innovation</h3>
+               <h3>through</h3>
+               <h3>demonstration</h3>
+            </p>
+            <a class="wgv_logo" href="#"><img src="img/wgv_logo.png" alt="" /></a>
+        </div>
+        <div class="col-md-4 inovation_search">
+        	<input type="email" class="form-control slide_search" id="exampleInputEmail1" placeholder="#INNOVATIONWGV">
+            <span class="glyphicon glyphicon-search yellow" aria-hidden="true"></span>
+            
+            <p class="last_search">
+            	<h4>WGV SALES INFORMATION</h4>
+            	<a class="right_arrow" href="#"><img src="img/right_arrow.png" alt="" /></a>
+            </p>
+        </div>    
+    </div>
+</div>
+<!-- slider banner end here -->
+</div>
+<!--contact section start here -->
+<div class="contact_wrapper">
+	<div class="container">
+    	<div class="contact_information">
+        	<ul class="contact_head">
+                <li><a class="stay_inform" href="#">STAY INFORMED</a></li>
+                <li><a class="feedback" href="#">feedback</a></li>
+            </ul>
+            <div class="contact_fields">
+            	<p class="contact_text">We are committed to protecting your privacy and the confidentiality of your personal information in accordance with the Australian Privacy Principles contained in the Privacy Act 1988.</p>
+                <form class="contact_form">
+                 <h2>your details</h2>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">title</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputPassword1">first name</label>
+                    <input type="password" class="form-control width50" id="exampleInputPassword1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">last name</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">company</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">job title</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+               </form>
+               <form class="contact_form">
+                 <h2>contact details</h2>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Street Address:</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputPassword1">Suburb:*</label>
+                    <input type="password" class="form-control width50" id="exampleInputPassword1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">State:*</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Postcode:*</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Country:*</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Mobile Phone:*</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Phone:*</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Email:*</label>
+                    <input type="email" class="form-control width50" id="exampleInputEmail1" placeholder="">
+                  </div>
+               </form>
+               <form class="contact_form">
+                 <h2>Projects I am interested in</h2>
+                  <div class="form-group">
+                     <label class="floatleft" for="exampleInputEmail1">Region:</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+                  <div class="form-group">
+                    <label class="floatleft" for="exampleInputEmail1">Suburb:</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+                  <div class="form-group">
+                     <label class="floatleft" for="exampleInputEmail1">Project:</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+                  
+               </form>
+               <form class="contact_form">
+                 <h2>Additional Information</h2>
+                  <div class="form-group">
+                     <label class="floatleft additional_padding" for="exampleInputEmail1">What type of information
+are you interested in?*</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+                   <div class="form-group">
+                     <label class="floatleft additional_padding" for="exampleInputEmail1">I am interested in the\
+development(s) as a:*</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+                   <div class="form-group">
+                     <label class="floatleft additional_padding" for="exampleInputEmail1">Where did you hear
+about the development(s):</label>
+                       <select class="form-control width50">
+                          <option>Please Select</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                       </select>
+                  </div>
+               </form>
+               <p class="black_box">* I have read and agree to Landcorp's privacy policy. I understand and consent to my personal details being passed on to a third party for the purpose of progressing my registration of interest.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--contact section start here -->
+<!-- footer start here -->
+<div class="footer">
+	<div class="container">
+    	<div class="top_button">
+        	<a href="javascript:void(0);">back to top <span aria-hidden="true" class="glyphicon glyphicon-chevron-up top"></span></a>
+        </div>
+        <div class="footer_nav">
+        	<ul>
+            	<li><a href="#">home</a></li>
+                <li><a href="#">latest</a></li>
+                <li><a href="#">resources</a></li>
+                <li><a href="#">land</a></li>
+                <li><a href="#">story</a></li>
+                <li><a href="#">partners</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        <div class="second_nav">
+        	<ul>
+            	<li><a href="#">water</a></li>
+                <li><a href="#">energy</a></li>
+                <li><a href="#">community</a></li>
+                <li><a href="#">landscape</a></li>
+                <li><a href="#">one</a></li>
+                <li><a href="#">planet</a></li>
+                <li><a href="#">living</a></li>
+                <li><a href="#">gen-y</a></li>
+            </ul>
+        </div>
+        <div class="copy_right">
+        	<span>2015 LandCorp</span>
+            <ul class="contact_nav">
+            	<li><a href="#">contact us</a></li>
+                <li><a href="#">Sustainability</a></li>
+                <li><a href="#">Privacy Statement</a></li>
+                <li><a href="#">terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div class="footer_logo">
+        	<a href="#"><img src="img/logo.png" alt="" /></a>
+            <div class="footer_htest">
+               <h3>innovation</h3>
+               <h3>through</h3>
+               <h3>demonstration</h3>
+            </div>
+            <div class="footer_wgv">
+            	<a href="#"><img src="img/footer_logo.png" alt="" /></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- footer end here -->
+</body>
+</html>
