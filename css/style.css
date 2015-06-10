@@ -63,8 +63,8 @@ a{ text-decoration:none;}
 .yellow1{ padding: 8px 7px; width: 40px; margin-top:-1px; background:#ffed00; color:#000; font-size:14px;}
 .inovation_search h2{ text-transform:uppercase; font-family:'CactusMedium-Regular'; font-size:45px; color:#ffed00; width:80%; margin-top:26px; margin-bottom:15px;}
 .innovation_test{font-family:'Helvetica-Regular'; font-size:16px; line-height:15px; color:#fff; width:211px; margin-bottom:29px;}
-.inovation_search h4{ clear:both; color:#000; background:#ffeb00; font-family:'CactusMedium-Regular'; font-size:24px; float:left; padding:7px 26px;}
-.right_arrow{ float:left; padding:6.5px 10px; background:#fff; width:44px; text-align:center;}
+.inovation_search h4{ clear:both; color:#000; background:#ffeb00; font-family:'CactusMedium-Regular'; font-size:24px; float:left; padding:7px 31px;}
+.right_arrow{ float:left; padding:6.5px 10px; background:#fff; width:39px; text-align:center;}
 .last_search{ margin-top:5px;}
 .partner-brands {float: left;padding: 0 75px;width: 100%;}
 .partner-brands {float: left;padding: 0 75px;width: 100%;}
@@ -74,7 +74,7 @@ a{ text-decoration:none;}
 /* ------------------ Search box css ------------------ */
 .slide_search{
 	width:0%;
-	max-width:203px;
+	max-width:204px;
 	-webkit-transition: width 0.3s ease-in-out;
 	-moz-transition: width 0.3s ease-in-out;
 	-o-transition: width 0.3s ease-in-out;
@@ -137,7 +137,7 @@ a{ text-decoration:none;}
 .latest_innovation h5{padding-bottom:10px;}
 .yellow_tag{bottom: -135px; margin: -42px 0 0 65px; position: absolute; z-index: 102; width:70%; display:none;}
 .house_bg{ }
-.dotted_bg{  float:left; margin-top:19%;}
+.dotted_bg{  float:left; margin-top:5%;}
 .dotted_bg .read-more-panel{padding-bottom:10px;}
 .read-more-connect .social_nav{float:left; padding-top:10px;}
 .geny_house p{padding-left:20px;}
@@ -182,8 +182,10 @@ a{ text-decoration:none;}
 .footer_nav{ clear:both; margin-top:40px; float:left;}
 .footer_nav li{ float: left; list-style:none; margin-right:35px; }
 .footer_nav a{ color:#ffed00; text-transform:capitalize; text-decoration:none;}
+.footer_nav a:hover{text-decoration:underline !important;}
+.second_nav a:hover{text-decoration:underline !important;}
 .second_nav{ clear:both; margin-top:20px; float:left;}
-.second_nav li{ float: left; list-style:none; margin-right:18px; }
+.second_nav li{ float: left; list-style:none; margin-right:18px;}
 .second_nav a{ color:#ffed00; text-transform:uppercase; text-decoration:none;}
 .copy_right{ float:left; clear:both; margin-top:32px;}
 .copy_right span{ color:#fff; float:left;}
@@ -266,14 +268,16 @@ a{ text-decoration:none;}
 .latest-listing-pagination {float: left;padding-bottom: 30px;text-align: right;width: 100%; font-size:24px}
 .latest-listing-pagination .page-no {border: 2px solid #ffed00;margin: 0 10px;padding: 8px 8px 8px 12px;text-align: center;}
 .latest-listing-pagination .page-no.selected{background:#ffed00;}
-.pagination-operations{background: #ffed00 none repeat scroll 0 0;padding-left: 4px;}
-.pagination-operations.next{padding:0px 4px;}
+.pagination-operations{background: #ffed00 none repeat scroll 0 0; padding-left: 4px; padding-bottom:4px;}
+.pagination-operations.next{padding-left: 4px; padding-bottom:4px; padding-right:4px;}
 .latest-listing-pagination a{color:#000000;}
 .latest-listing-pagination span:hover{background:#ffed00;}
 .latest-listing-pagination a:hover{text-decoration:none;}
 
-.energy_buttons p a {padding: 5px;width: auto;}
-.latest_buttons p a{width:auto; padding:5px;}
+.energy_buttons p a { padding: 5px 0 5px 5px; width: auto;}
+.energy_buttons p a span { padding: 7px 10px;}
+.latest_buttons p a{ width:auto; padding: 5px 0 5px 5px;}
+.latest_buttons p a span{ padding: 7px 10px;}
 .read-more-panel {float: left;width: 100%;}
 .read-more-panel .read_more {
     float: left;
@@ -284,11 +288,11 @@ a{ text-decoration:none;}
 .topsearch{ float:right;}
 .initiative_banner .inovation_search{ background:none;}
 .initiative_search{ background:none; padding:0px; float:right; margin-top:40px;} 
-.initiative_body{ width:100%; padding-top:30px; /*background:url(../img/initiative_bg.png); background-size:cover;*/}
+.initiative_body{ width:100%; padding-top:30px; background:url(../img/initative_bg.png) no-repeat center top;}
 .social_machins{ width:730px; margin:0px auto;}
 .initiative_minrals{ text-align:center; margin-top:25px;}
 .initiative_minrals h2{ font-family:'CactusMedium-Regular'; font-size:20px; text-transform:uppercase; color:#000; margin-top:15px;}
-.banner_logo{ clear: both; text-align: center; width:97%; float:left;}
+.banner_logo{  text-align: center; width:50%; float:left; margin-top:5px;}
 .initiative_living{ margin-top:70px; width:100%; clear:both; float:left; margin-bottom:50px;}
 .left_side h2{ font-family:'CactusMedium-Regular'; font-size:64px; text-transform:uppercase; float:left; margin-bottom:40	px;}
 .left_side span{ font-family:'CactusBold-Regular'; font-size:120px; text-transform:uppercase; float:right; padding-left:15px;}
@@ -324,7 +328,7 @@ a{ text-decoration:none;}
 .latestarticle_wrapper .banner_logo{ top:336px;}
 /*.latest_new{ background:url(../img/newlatest_banner.png) no-repeat scroll center top / cover;}*/
 .latest_new .inovation_search{ background:none;}
-.newlatest_wrapper{ width:100%; padding:67px 0px; /*background:url(../img/latest_article.png); background-size:cover;*/}
+.newlatest_wrapper{ width:100%; padding:67px 0px; background:url(../img/latest_article.png) no-repeat center top;}
 .new_latest{ width:840px; margin:0px auto;}
 .page_heading{ width:546px;  font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; margin-bottom:25px; padding-left:90px;}
 .date_format{ font-size:10px; font-family:'Helvetica-Regular'; margin-top:42px;}
@@ -356,7 +360,7 @@ a{ text-decoration:none;}
 .story_wrapper .banner_logo{ top:339px;}
 /*.story_banner{ background:url(../img/story_banner.png) no-repeat scroll center top / cover;}*/
 .story_banner .inovation_search{ background:none !important;}
-.story_section{ width:100%; padding:70px 0px; /*background:url(../img/story_bg.png);*/}
+.story_section{ width:100%; padding:70px 0px; background:url(../img/story_bg.png) no-repeat center top;}
 .story_head{ font-size:120px; font-family:'CactusMedium-Regular'; border-bottom:10px solid #ffed00; padding-left:30px; padding-bottom:6px;}
 .left_wrapper p{ color:#787878; font-size:16px; font-family:'Helvetica-Regular'; margin-top:23px; margin-left:30px; line-height:24px; margin-bottom:15px;}
 .build_img{ margin-left:0px !important;}

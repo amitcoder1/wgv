@@ -28,6 +28,8 @@
 
 @media only screen and (max-width:767px){
 	.img--scale {display:block;}
+	.banner_test {padding: 12px 0px; width: 50%;}
+	.latest .inovation_search {float: left; width: 50%;}
 }
 
 @media (min-width:400px) and (max-width:440px){
@@ -40,12 +42,18 @@
 	.fst_event{ margin-left:-22px ;}
 	.right_event{ margin-right:-21px;}
 	.tree_branch h2{ margin-bottom:25px !important;}
-	.banner_logo{ position:absolute; bottom:-26px !important;}
+	
+	.home-page .banner-textpanel{ margin-bottom:40px;}
+	.events_listing{ margin-left:-24px;}
+	.events_listing:nth-child(2n+1){ margin-right:-16px;}
+	.bottom_paragraph{ width:100% !important;}
+	.our_devlopment{ margin-left:5px !important;}
 }
 @media only screen and (max-width:399px){
 	.latest-listing-pagination{font-size:14px;}
 	
 }
 @media only screen and (max-width:350px){
-.banner_logo{ top:432px !important; position:absolute;}
+
+
 }

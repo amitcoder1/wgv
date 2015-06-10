@@ -1630,8 +1630,8 @@ text-align:right
 	border-color:#ccc
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
-	color:#333;
-	background-color:#ebebeb;
+	color:#fff;
+	background-color:#000;
 	border-color:#adadad
 }
 .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
@@ -3197,14 +3197,16 @@ margin-left:-15px
 	margin-right:15px;
 	margin-bottom:8px;
 	background-color:transparent;
-	border:1px solid transparent;
+	/*border:1px solid transparent;*/
+	border:none !important;
 	border-radius:4px
 }
 .navbar-toggle .icon-bar {
 	display:block;
-	width:22px;
-	height:2px;
-	border-radius:1px
+	width:40px;
+	height:3px;
+	border-radius:1px;
+	background:#ece810 none repeat scroll 0 0 !important;
 }
 .navbar-toggle .icon-bar+.icon-bar {
 	margin-top:4px
@@ -3244,7 +3246,7 @@ background-image:none
 }
 @media(min-width:768px) {
 .navbar-nav {
-float:left;
+float:right;
 margin:0
 }
 .navbar-nav>li {
@@ -3357,7 +3359,7 @@ margin-left:15px
 	/*color:#777*/
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color:#b4b4b4;
+	color:#FFED00;
 	background-color:transparent
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -3372,7 +3374,7 @@ margin-left:15px
 	border-color:#ffed00;
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background-color:#ffed00;
+	/*background-color:#ffed00;*/
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color:#ccc
@@ -5131,10 +5133,10 @@ th.hidden-lg, td.hidden-lg {
 .contact_banner{background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important; padding-top:15px; min-height:215px !important;}
 .innovation_test{ width:95% !important;}
 .active{ border:none !important;}
-.nav.navbar-nav > li{background:#93890b; margin-bottom:6px;}
+.nav.navbar-nav > li{background:#ffec00; margin-bottom:6px; min-height:32px;}
 .navigation li a{ font-size:24px !important; color:#000 !important;} 
 .navbar-nav > li > a{ padding-top:5px !important; padding-bottom:5px !important;}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{ color:#fff !important;}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{ /*color:#fff !important;*/}
 .navbar-toggle{ margin-top:-24px !important;}
 .header{ min-height:94px !important;}
 .dotted_bg{ margin-top:4% !important;}
@@ -5187,8 +5189,7 @@ th.hidden-lg, td.hidden-lg {
 .right_arrow{ width:36px !important;}
 .latest_wrapper{ background:none !important;}
 .banner_test{ float:left; width:100%; margin-bottom:4px; margin-top:5px !important;}
-.inovation_search h4{ padding:7px 29px !important;}
-.banner_test h3{ font-size:26px !important; border-bottom:3px solid #fff200!important;}	
+.banner_test h3{ font-size:20px !important; border-bottom:3px solid #fff200!important;}	
 .footer_htest h3{ font-size:16px !important; line-height:20px !important;}
 .sbHolder{ width:90% !important;}
 .contact_fields{ margin-top:7px !important;} 
@@ -5227,23 +5228,27 @@ th.hidden-lg, td.hidden-lg {
 .margin_left{ margin:0px !important;}
 .second_search{ clear:both;}
 .latestarticle_wrapper .banner_logo{ top:435px !important;}
-.banner_logo{ position:absolute; bottom:-33px !important;}
-.banner_logo img{ width:24% !important;}
+.banner_logo img{ max-width:40% !important; float:right;}
 .leftfloat{ margin-left:0px !important;}
 /******** new latest page end ******************/
 /******** story page css here*******************/
 .left_wrapper .social_nav{ margin-bottom:20px !important; margin-left:0px !important;}
 .tree_branch h2{ margin-bottom:0px !important;}
-.bottom_paragraph{ width:100% !important;}
+.bottom_paragraph{ width:85% !important;}
 .story_head{ font-size:50px !important; padding-left:0px !important;}
 .video_head{ padding-left:0px !important; font-size:32px !important;}
 .left_wrapper p{ margin-left:0px !important;}
 .video_des{ margin-left:0px !important; margin-top:10px !important;}
 .left_wrapper .prevarticle { font-size: 24px !important;  width: 170px !important;}
 .story_banner{ min-height:400px;}
+.bottom_year{ padding-top:65px !important;}
+.map_section{ padding-bottom:0px !important;}
+.register_update{ margin-top:15px !important;}
 /******** story page css end here **************/
 /******** land page css here ******************/
-.our_devlopment{ width:42% !important; margin-right:15px; float:left; margin-bottom:15px;} 
+.our_devlopment{ width:42% !important; margin-right:15px; float:left; margin-bottom:15px; margin-left:10px !important;} 
+.register_update{ margin-bottom:-15px !important;}
+.map_location{ margin-bottom:15px;}
 /******** land page css end here **************/
 }
 @media(min-width:768px) and (max-width:991px) {
@@ -5315,7 +5320,8 @@ display:none!important;}
 .top_button{ padding-left:0px !important;}
 .story_section{ padding:30px 0px !important;}
 .story_head{ font-size:80px !important;}
-.banner_logo{ position:absolute;  bottom:-25px !important;}
+.banner_logo{ position:absolute;  bottom:-25px !important; width:100% !important;}
+.page-banner .container .col-md-9.navigation{ margin-top:32px !important;}
 }
 @media(min-width:992px) and (max-width:1199px) {
 .hidden-lg.hidden-md, tr.hidden-lg.hidden-md, th.hidden-lg.hidden-md, td.hidden-lg.hidden-md {
@@ -5395,7 +5401,6 @@ th.visible-print, td.visible-print {
 }
 @media(max-width:479px) {
 .logo img{ max-width:65% !important;}
-
 .nav_button{ margin-top:-22px !important;}
 .planet_minrals{ width:100% !important;}
 .yellow_tags a{ font-size:11px !important;}
@@ -5406,12 +5411,11 @@ th.visible-print, td.visible-print {
 .width325{ width:100% !important;}
 .tree_branch{ background:none !important; width:100% !important;}
 .fst_event{ clear:both; margin:0px auto !important; float:none !important;}
-
 .right_event{ margin-right:0px !important;}
 .fst{ clear:both; margin-top:15px !important; float:left !important;}
 .bottom_year{ color:#333 !important;} 
-.story_banner .banner_logo{ top:463px !important; position:absolute;}
-.banner_logo{ top:426px !important; position:absolute;}
+.home-page .last_search{ margin-bottom:-15px;}
+.home-page .banner-textpanel{ margin-bottom:15px;}
 .tree_branch h2{ color:#333 !important;}
 .story_section{ padding:40px 0px !important;}
 .fst_event span{ display:none !important;}
@@ -5422,4 +5426,10 @@ th.visible-print, td.visible-print {
 .fst_event a{ margin-top:15px;}
 .our_devlopment{ width:100% !important; margin-bottom:15px;}
 .latest-listing-pagination{ text-align:left !important;}  
+.home-page .banner-textpanel{ margin-bottom:15px !important;}
+.events_listing{ margin-bottom:10px; width:100% !important; margin-left:0px !important;}
+.events_listing:nth-child(2n+1){float:none !important; margin-bottom: 10px;  margin-top:0px !important;}
+.events_listing span{ display:none;}
+.our_devlopment{margin-left:0px !important;}
+.banner_logo img{ width:60% !important;}
 }
