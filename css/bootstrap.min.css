@@ -3359,7 +3359,7 @@ margin-left:15px
 	/*color:#777*/
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	color:#FFED00;
+	color:#ffeb00;
 	background-color:transparent
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -5129,6 +5129,9 @@ th.hidden-lg, td.hidden-lg {
 @media(max-width:767px) {
 .hidden-lg.hidden-xs, tr.hidden-lg.hidden-xs, th.hidden-lg.hidden-xs, td.hidden-lg.hidden-xs {display:none!important;}
 .development{ margin-left:0px !important; margin-bottom:15px; padding:8px 21px 8px 23px !important; font-size:32px !important;}
+.minrals_icons{ padding-left:40px;}
+.initiative_minrals{ float:left; width:50%;}
+.minrals{ float:left;}
 .slider_banner{/*background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important;*/ padding-top:15px; min-height:520px !important;}
 .contact_banner{background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important; padding-top:15px; min-height:215px !important;}
 .innovation_test{ width:95% !important;}
@@ -5204,17 +5207,18 @@ th.hidden-lg, td.hidden-lg {
 .latest_buttons h2{ margin-top:10px !important;}
 .energy_buttons h2{ font-size:26px !important;}
 .latest-listing-pagination{ text-align:center !important;}
-.latest-listing-pagination .page-no{ padding:4px 3px 3px !important;}
+.latest-listing-pagination .page-no{ padding:4px 1px 3px 4px !important;}
 .pagination-operations{ padding-bottom:4px;} 
 .pagination-operations.next{ padding-bottom:4px !important;}
+.contact_text{ margin-bottom:0px !important;}
 /********latest page 320px meadia end here*****/
 /******** initatives page css start here *******/
-.social_machins{ width:100% !important;}
-.left_side h2{ font-size:36px !important;}
-.left_side span{ font-size:50px !important;}
+.social_machins{ width:100% !important; float:left;	}
+.left_side h2{ font-size:36px !important; margin-bottom:15px;}
+.left_side span{ font-size:44px !important;}
 .planet_living{ margin-top:30px !important; margin-bottom:30px !important;}
 .planet_socialnav{ margin-bottom:20px !important;}
-.right_side{ padding-top:20px !important;}
+.right_side{ padding-top:20px !important; padding-left:0px;}
 .planet_minrals{ width:50% !important; float:left;}
 /******** initatives page css end here *********/
 /******** new latest page **********************/
@@ -5230,7 +5234,7 @@ th.hidden-lg, td.hidden-lg {
 .latestarticle_wrapper .banner_logo{ top:435px !important;}
 .banner_logo img{ max-width:40% !important; float:right;}
 .leftfloat{ margin-left:0px !important;}
-/******** new latest page end ******************/
+	/******** new latest page end ******************/
 /******** story page css here*******************/
 .left_wrapper .social_nav{ margin-bottom:20px !important; margin-left:0px !important;}
 .tree_branch h2{ margin-bottom:0px !important;}
@@ -5250,6 +5254,32 @@ th.hidden-lg, td.hidden-lg {
 .register_update{ margin-bottom:-15px !important;}
 .map_location{ margin-bottom:15px;}
 /******** land page css end here **************/
+/******** backgrounds none here ***************/
+.initiative_body{ background:none;}
+.story_section{ background:none !important;}
+.initiative_body{ background:none !important;}
+.newlatest_wrapper{ backgorund:none;}
+/******** backgrounds none here ***************/
+.geny_house p{ padding-left:0px !important;}
+.geny_house .read-more-connect{ padding-left:0px !important;}
+.brands{ float:left; width:45% !important; margin-right:12px;}
+.clr{ clear:none !important;}
+.partner-brands{ padding:0px !important;}
+.initiative_socialnav{ margin-bottom:0px !important;}
+.left_side{ padding-left:0px;}
+.planet{ margin-left:0px !important; margin-top:8px;}
+.subhmit{ margin-top:0px !important; margin-bottom:40px;}
+.form-group {margin-bottom:0px !important;}
+.community-opt{ height:100px !important; width:100px!important;}
+.minrals h2{ font-size:24px !important;}
+.minrals_icons{ padding-left:0px !important;}
+.video_head{ margin-top:10px !important; margin-bottom:20px !important;}
+.initiative_living{ margin-top:50px !important;}
+.left_side p{ text-align:center;}
+.right_wrapper{ margin-top:0px !important;}
+.first_box{ margin-left:-14px;}
+.second_search{ margin-bottom:0px !important;}
+
 }
 @media(min-width:768px) and (max-width:991px) {
 .hidden-lg.hidden-sm, tr.hidden-lg.hidden-sm, th.hidden-lg.hidden-sm, td.hidden-lg.hidden-sm {
@@ -5285,7 +5315,7 @@ display:none!important;}
 .latest_wrapper{ background:none !important;}
 .yellow1{ }
 .body_content{ margin-top:0px !important;}
-.minrals{ width:48%; float:left;}
+.minrals{ margin-right:40px; float:left;}
 .logo{ text-align:center;}
 .contact_wrapper{ background:none !important; border:none !important;}
 .contact_banner .inovation_search{ margin-top:6px !important;}
@@ -5320,8 +5350,14 @@ display:none!important;}
 .top_button{ padding-left:0px !important;}
 .story_section{ padding:30px 0px !important;}
 .story_head{ font-size:80px !important;}
-.banner_logo{ position:absolute;  bottom:-25px !important; width:100% !important;}
+.banner_logo{ position:absolute;  bottom:-25px !important; width:94% !important;}
 .page-banner .container .col-md-9.navigation{ margin-top:32px !important;}
+.initiative_minrals{ padding-left:0px !important; padding-right:10px !important; float:left;}
+.four, .third, .seven{ clear:both;}
+.brands{float: left;  margin-right: 3px;  width: 32% !important;}
+.partner-brands{ padding:0px !important;}
+.video_head{ margin-top:20px !important; margin-bottom:20px !important;}
+.right_wrapper{ margin-top:30px !important;}
 }
 @media(min-width:992px) and (max-width:1199px) {
 .hidden-lg.hidden-md, tr.hidden-lg.hidden-md, th.hidden-lg.hidden-md, td.hidden-lg.hidden-md {
@@ -5371,7 +5407,12 @@ display:none!important;}
 .our_devlopment{ margin-right:24px !important;}
 .latest_topics{ padding-left:45px !important;}
 .contact_fields{ margin-top:5px !important;} 
-.banner_logo{ position:absolute;  bottom:-32px !important;}
+.banner_logo{ position:absolute;  bottom:-18px !important;}
+.community-opt{ margin-left:40px;}
+.minrals{ width:30%;} 
+.minrals_icons{ float:left; padding-left:80px;}
+.video_head{ margin-top:20px !important; margin-bottom:20px !important;}
+.right_wrapper{ margin-top:30px !important;}
 }
 @media(min-width:1200px) {
 .hidden-lg, tr.hidden-lg, th.hidden-lg, td.hidden-lg {
@@ -5409,14 +5450,12 @@ th.visible-print, td.visible-print {
 .prevarticle{ width:98px !important; font-size:18px !important;}
 .water_planter .second_box{ width:100% !important;}
 .width325{ width:100% !important;}
-.tree_branch{ background:none !important; width:100% !important;}
+.right_wrapper{ padding:0px !important;}
 .fst_event{ clear:both; margin:0px auto !important; float:none !important;}
 .right_event{ margin-right:0px !important;}
 .fst{ clear:both; margin-top:15px !important; float:left !important;}
-.bottom_year{ color:#333 !important;} 
 .home-page .last_search{ margin-bottom:-15px;}
 .home-page .banner-textpanel{ margin-bottom:15px;}
-.tree_branch h2{ color:#333 !important;}
 .story_section{ padding:40px 0px !important;}
 .fst_event span{ display:none !important;}
 .right_event{ float:none !important;}
@@ -5427,9 +5466,15 @@ th.visible-print, td.visible-print {
 .our_devlopment{ width:100% !important; margin-bottom:15px;}
 .latest-listing-pagination{ text-align:left !important;}  
 .home-page .banner-textpanel{ margin-bottom:15px !important;}
-.events_listing{ margin-bottom:10px; width:100% !important; margin-left:0px !important;}
+.events_listing{ margin-bottom:10px; margin-top:10px; width:100% !important; margin-left:0px !important;}
 .events_listing:nth-child(2n+1){float:none !important; margin-bottom: 10px;  margin-top:0px !important;}
 .events_listing span{ display:none;}
 .our_devlopment{margin-left:0px !important;}
 .banner_logo img{ width:60% !important;}
+.minrals h2{ margin-right:7px !important;}
+.banner_logo{ margin-top:22px !important;}
+.button_initative{ width:217px !important;}
+.sbHolder{ width:85% !important;} 
+.minrals h2{ font-size:24px !important;}
+.minrals{ float:left; width:50% !important;}
 }

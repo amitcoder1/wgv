@@ -131,7 +131,7 @@ a{ text-decoration:none;}
 .yello_background > img{ margin-bottom:0px !important;}
 .social_nav{ margin-top:8px;}
 .development{ font-family:'CactusMedium-Regular'; font-size:72px; text-transform:uppercase; color:#000; background:#ffed00; margin-left: -97px; margin-top: 30px;
- padding:8px 21px 8px 95px; float:left;} 
+ padding:17px 21px 21px 95px; float:left;} 
 .latest_innovation h3{font-family:'CactusBold-Regular'; font-size:32px;}
 .latest_innovation p{ font-family:'Helvetica-Regular'; font-size:16px; width:345px; margin-top:20px; color:#000;}
 .latest_innovation h5{padding-bottom:10px;}
@@ -148,8 +148,9 @@ a{ text-decoration:none;}
 .brand_gallery h2{ font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; color:#000; border-bottom:8px solid #ffed00; float:left; width:50%; margin-bottom:45px; padding-bottom:10px; padding-left: 35px;}
 .brands{ text-align:center;}
 .margin_bottm{ margin-bottom:45px;}
+.clr{ clear:both;}
 .bottom_text{ font-family:'CactusBold-Regular'; font-size:34px; text-align:center; color:#000; margin-top:45px; margin-bottom:50px;}
-.video_img{ margin-top:30px;}
+.video_img{ margin-top:35px;}
 
 /* ---------- Options button animmation start here ----------- */
 
@@ -218,10 +219,11 @@ a{ text-decoration:none;}
 .contact_form h2{ text-transform:uppercase; font-size:72px; font-family:'CactusMedium-Regular'; margin-left:-10px; color:#000; margin-bottom:18px;}
 .floatleft{ float:left; width:25%; margin-top:7px; font-family:'Helvetica-Regular'; font-size:14px; font-weight:normal; text-align:right; margin-right:10px; 
  text-transform:capitalize; color:#787878;}
-.width50{ width:60%; background:#000; border:none; border-radius:0px; color:#fff;}
+.width50{ width:60%; background:#000; border:none; border-radius:0px; color:#fff; font-size:16px;}
 .additional_padding{ margin-left: -54px;  width: 36%;}
 .black_box{ border:1px solid; background:#000; color:#fff; padding:20px; font-family:'Helvetica-Regular'; font-size:14px; margin-top:60px;}
 .contact_wrapper{background:url(../img/contact_bodybg.png) no-repeat; background-size:100% 100%;}
+.subhmit{ float:left; margin-top:30px; padding:3px 30px; background:#ffed00;font-size:32px; font-family:'CactusMedium-Regular'; color:#000; border:none;}
 /************* contact page css end here ***********/
 /************* latest page css start here **********/
 .latest_wrapper{  background:url(../img/latest_bodybg.png) no-repeat;  background-size:100% 100%;}
@@ -294,8 +296,8 @@ a{ text-decoration:none;}
 .initiative_minrals h2{ font-family:'CactusMedium-Regular'; font-size:20px; text-transform:uppercase; color:#000; margin-top:15px;}
 .banner_logo{  text-align: center; width:50%; float:left; margin-top:5px;}
 .initiative_living{ margin-top:70px; width:100%; clear:both; float:left; margin-bottom:50px;}
-.left_side h2{ font-family:'CactusMedium-Regular'; font-size:64px; text-transform:uppercase; float:left; margin-bottom:40	px;}
-.left_side span{ font-family:'CactusBold-Regular'; font-size:120px; text-transform:uppercase; float:right; padding-left:15px;}
+.left_side h2{ font-family:'CactusMedium-Regular'; font-size:64px; text-transform:uppercase; float:left; margin-bottom:40	px; margin-bottom:60px;}
+.left_side span{ font-family:'CactusBold-Regular'; font-size:120px; margin-top:-10px; text-transform:uppercase; float:right; padding-left:15px;}
 .left_side p{ font-family:'Helvetica-Regular'; font-size:16px; color:#333333; line-height:24px; clear:both;}
 .kichen_img{ margin-top:10px; margin-bottom:30px;}
 .initiative_socialnav{ margin-top:25px; margin-bottom:80px; }
@@ -321,6 +323,7 @@ a{ text-decoration:none;}
 .second_box span{ clear:both;  font-size:11px; font-family:'Helvetica-Regular'; float:left; padding-left:40px;}
 .button_resource{background: hsl(0, 0%, 0%) none repeat scroll 0 0; border: 1px solid; clear: both; float: left; padding: 6px 0 6px 15px; width: 141px;}
 .button_resource a{color: hsl(0, 0%, 100%); font-family: "CactusMedium-Regular"; font-size: 24px; text-decoration: none; text-transform: uppercase;}
+.left_side{ width:740px; margin:0px auto;}
 /************* initative page css end here *******/
 /************* second latest page css start here *****/
 .latestarticle_wrapper .inovation_search{ background:none;}
@@ -365,21 +368,22 @@ a{ text-decoration:none;}
 .left_wrapper p{ color:#787878; font-size:16px; font-family:'Helvetica-Regular'; margin-top:23px; margin-left:30px; line-height:24px; margin-bottom:15px;}
 .build_img{ margin-left:0px !important;}
 .new_video{ }
-.video_head{  font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; padding-left:30px;}
+.video_head{  font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; padding-left:30px; margin-top:90px;
+margin-bottom:70px;}
 .video_des{ margin-top:40px; margin-left:30px;}
 .video_des li{ list-style:none; line-height:24px;}  
 .watch_progress{ width:100%; float:left; }
 .watch_progress a:hover{ text-decoration:none; color:#fff;}
 .height44{ min-height:49px !important; width:160px; padding: 12px 0 !important;}
 .left_wrapper .social_nav{ margin-left:30px; margin-bottom:150px;}
-.right_wrapper{ text-align:center;}
+.right_wrapper{ text-align:center; margin-top:150px;}
 .tree_branch{ background:url(../img/tree_bg.png) no-repeat center top; width:490px; min-height:1070px;}
 .tree_branch h2{ color:#fff; font-size:34px; padding:15px 0px; font-family:'CactusMedium-Regular'; margin-bottom:38px;}
 .events_listing{ float:left; width:243px; margin-left:7px;}
 .events_listing a{ font-size:32px; font-family:'CactusMedium-Regular'; color:#fff; float:left; padding:0px; width:208px; background:#000;}
 .events_listing a:hover{ text-decoration:none;}
 .events_listing span{ background:#ffed00; float: left; padding: 9px 0; width: 35px;}
-.events_listing p{background: #ffed00; float: left; padding:11px; text-align: left;  width: 206px; color:#545454; font-size:16px; font-family:'Helvetica-Regular'; line-height:16px; min-height:71px;}
+.events_listing p{background: #ffed00; float: left; padding:11px; text-align: left;  width: 207px; color:#545454; font-size:16px; font-family:'Helvetica-Regular'; line-height:16px; min-height:71px;}
 .right_event{ float:right;}
 .fst{ margin-top:-20px;}
 .sec_left{ margin-top:-45px;}
