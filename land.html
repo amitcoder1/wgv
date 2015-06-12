@@ -238,15 +238,16 @@
 </script>
 		<script>
             var myCenter=new google.maps.LatLng(-32.056039900000000000,115.747179700000060000);
+            var myLoc=new google.maps.LatLng(-32.056040,115.747180);
 			function initialize(){
 				var mapProp = {
 				  center:myCenter,
-				  zoom:5,
+				  zoom:9,
 				  mapTypeId:google.maps.MapTypeId.ROADMAP
 				};
 				var map=new google.maps.Map(document.getElementById("map-canvas"),mapProp);
 				var marker=new google.maps.Marker({
-				  position:myCenter,
+				  position:myLoc,
 				});
 				marker.setMap(map);
 				var infowindow = new google.maps.InfoWindow({

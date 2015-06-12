@@ -230,12 +230,12 @@ input, button, select, textarea {
 	line-height:inherit
 }
 a {
-	color:#428bca;
+	color:#000;
 	text-decoration:none
 }
 a:hover, a:focus {
-	color:#2a6496;
-	text-decoration:underline
+	/*color:#2a6496;*/
+	text-decoration:underline;
 }
 a:focus {
 	outline:thin dotted #333;
@@ -5129,16 +5129,16 @@ th.hidden-lg, td.hidden-lg {
 @media(max-width:767px) {
 .hidden-lg.hidden-xs, tr.hidden-lg.hidden-xs, th.hidden-lg.hidden-xs, td.hidden-lg.hidden-xs {display:none!important;}
 .development{ margin-left:0px !important; margin-bottom:15px; padding:8px 21px 8px 23px !important; font-size:32px !important;}
-.minrals_icons{ padding-left:40px;}
+
 .initiative_minrals{ float:left; width:50%;}
-.minrals{ float:left;}
+.minrals{ float:left; width:50%;}
 .slider_banner{/*background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important;*/ padding-top:15px; min-height:520px !important;}
 .contact_banner{background:hsla(0, 0%, 0%, 0.5) none repeat scroll 0 0 !important; padding-top:15px; min-height:215px !important;}
 .innovation_test{ width:95% !important;}
 .active{ border:none !important;}
-.nav.navbar-nav > li{background:#ffec00; margin-bottom:6px; min-height:32px;}
-.navigation li a{ font-size:24px !important; color:#000 !important;} 
-.navbar-nav > li > a{ padding-top:5px !important; padding-bottom:5px !important;}
+.nav.navbar-nav > li{background:#ffec00; margin-bottom:6px; min-height:25px;}
+.navigation li a{ font-size:22px !important; color:#000 !important;} 
+.navbar-nav > li > a{ padding-top:3px !important; padding-bottom:3px !important;}
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{ /*color:#fff !important;*/}
 .navbar-toggle{ margin-top:-24px !important;}
 .header{ min-height:94px !important;}
@@ -5189,7 +5189,7 @@ th.hidden-lg, td.hidden-lg {
 .margin_bottm{ margin-bottom:0px !important;}
 .brands{ margin-bottom:40px !important;}
 .bottom_text{ margin-top:0px !important; font-size:26px !important; margin-bottom:30px !important;}
-.right_arrow{ width:36px !important;}
+.right_arrow{ width:36px !important; height:40px;}
 .latest_wrapper{ background:none !important;}
 .banner_test{ float:left; width:100%; margin-bottom:4px; margin-top:5px !important;}
 .banner_test h3{ font-size:20px !important; border-bottom:3px solid #fff200!important;}	
@@ -5207,15 +5207,15 @@ th.hidden-lg, td.hidden-lg {
 .latest_buttons h2{ margin-top:10px !important;}
 .energy_buttons h2{ font-size:26px !important;}
 .latest-listing-pagination{ text-align:center !important;}
-.latest-listing-pagination .page-no{ padding:4px 1px 3px 4px !important;}
+.latest-listing-pagination .page-no{ /*padding:4px 1px 3px 4px !important;*/}
 .pagination-operations{ padding-bottom:4px;} 
 .pagination-operations.next{ padding-bottom:4px !important;}
 .contact_text{ margin-bottom:0px !important;}
 /********latest page 320px meadia end here*****/
 /******** initatives page css start here *******/
 .social_machins{ width:100% !important; float:left;	}
-.left_side h2{ font-size:36px !important; margin-bottom:15px;}
-.left_side span{ font-size:44px !important;}
+.left_side h2{ font-size:36px !important; margin-bottom:15px !important;}
+.left_side span{ font-size:44px !important; width:100%;}
 .planet_living{ margin-top:30px !important; margin-bottom:30px !important;}
 .planet_socialnav{ margin-bottom:20px !important;}
 .right_side{ padding-top:20px !important; padding-left:0px;}
@@ -5272,14 +5272,20 @@ th.hidden-lg, td.hidden-lg {
 .form-group {margin-bottom:0px !important;}
 .community-opt{ height:100px !important; width:100px!important;}
 .minrals h2{ font-size:24px !important;}
-.minrals_icons{ padding-left:0px !important;}
+
 .video_head{ margin-top:10px !important; margin-bottom:20px !important;}
 .initiative_living{ margin-top:50px !important;}
 .left_side p{ text-align:center;}
 .right_wrapper{ margin-top:0px !important;}
 .first_box{ margin-left:-14px;}
 .second_search{ margin-bottom:0px !important;}
-
+.left_side{ width:100% !important;}
+.active:hover{border:none !important;}
+.read-more-panel{ margin:20px 0px !important;}
+.latest_innovation { clear: both; float: left; width: 100%; margin:30px 0px;}
+.video_img { clear: both; float: left; width: 100%;}
+.yello_background{ padding:9px 11px !important;}
+.read_more{ padding:4px 18px !important;} 
 }
 @media(min-width:768px) and (max-width:991px) {
 .hidden-lg.hidden-sm, tr.hidden-lg.hidden-sm, th.hidden-lg.hidden-sm, td.hidden-lg.hidden-sm {
@@ -5358,6 +5364,9 @@ display:none!important;}
 .partner-brands{ padding:0px !important;}
 .video_head{ margin-top:20px !important; margin-bottom:20px !important;}
 .right_wrapper{ margin-top:30px !important;}
+.read-more-panel{ margin:20px 0px !important;}
+.latest_innovation { clear: both; float: left; width: 100%; margin:30px 0px;}
+.video_img { clear: both; float: left; width: 100%;}
 }
 @media(min-width:992px) and (max-width:1199px) {
 .hidden-lg.hidden-md, tr.hidden-lg.hidden-md, th.hidden-lg.hidden-md, td.hidden-lg.hidden-md {
@@ -5413,6 +5422,9 @@ display:none!important;}
 .minrals_icons{ float:left; padding-left:80px;}
 .video_head{ margin-top:20px !important; margin-bottom:20px !important;}
 .right_wrapper{ margin-top:30px !important;}
+.read-more-panel{ margin:20px 0px !important;}
+.latest_innovation { clear: both; float: left; width: 100%; margin:30px 0px;}
+.video_img { clear: both; float: left; width: 100%;}
 }
 @media(min-width:1200px) {
 .hidden-lg, tr.hidden-lg, th.hidden-lg, td.hidden-lg {
@@ -5477,4 +5489,8 @@ th.visible-print, td.visible-print {
 .sbHolder{ width:85% !important;} 
 .minrals h2{ font-size:24px !important;}
 .minrals{ float:left; width:50% !important;}
+.initiative_minrals h2{ margin-right:0px !important;}
+.initiative_minrals{ padding-left:17px !important;}
+.minrals h2{ margin-right:10px !important;}
+.minrals{ padding-left:17px !important;}
 }

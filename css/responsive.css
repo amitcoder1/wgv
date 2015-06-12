@@ -37,19 +37,49 @@
 	.img--scale {display:block;}
 	.banner_test {padding: 12px 0px; width: 50%;}
 	.banner-textpanel{margin-top:5px;}
-	
-
+	.left_side span{float:left; padding-left:0px;}
+	.initiative_living p{text-align:justify;}
+	.latest-listing-pagination span a {padding: 5px 6px !important;}
+	.our_devlopment{display:none;}
 }
+
 @media (min-width:600px) and (max-width:650px){
 .events_listing{ margin-top:8px;}
 .tree_branch{ background-size:86% 86% !important; margin-left:42px;}
+.initiative_minrals h2{ margin-right:91px;}
+.initiative_minrals{ padding-left:90px;}
+.minrals h2{ margin-right:91px;}
+.minrals{ padding-left:90px;}
+}
+@media (min-width:651px) and (max-width:699px){
+.initiative_minrals h2{ margin-right:118px !important;}
+.social_machins{ padding-left:110px !important;}
+.minrals_icons h2{ margin-right:118px !important;}
+.minrals_icons{ padding-left:110px !important;}
+}
+@media (min-width:700px) and (max-width:760px){
+.initiative_minrals h2{ margin-right:133px !important;}
+.social_machins{ padding-left:118px !important;}
+.minrals_icons h2{ margin-right:133px !important;}
+.minrals_icons{ padding-left:118px !important;}
 }
 @media (min-width:400px) and (max-width:440px){
 	.latest-listing-pagination{font-size:18px;}
+	.social_machins{ padding-left:30px !important;}
+	.minrals_icons{ padding-left:31px;}
+	.minrals h2{ margin-right:29px !important;}
+	
 	
 }
+@media (min-width:500px) and (max-width:599px){
+.initiative_minrals h2{ margin-right:84px;} 
+.social_machins{ padding-left:80px;}
+.minrals_icons{ padding-left:80px;}
+.minrals_icons h2{ margin-right:92px;}
+
+}
 @media only screen and (max-width:480px){
-.tree_branch{ width:100% !important;}
+	.tree_branch{ width:100% !important;}
 	.bottom_year{ padding:38px 0 0 !important;}
 	.fst_event{ margin-left:-22px ;}
 	.right_event{ margin-right:-21px;}
@@ -59,11 +89,19 @@
 	.events_listing:nth-child(2n+1){ margin-right:-16px;}
 	.bottom_paragraph{ width:100% !important;}
 	.our_devlopment{ margin-left:5px !important;}
+	.initiative_minrals h2{ margin-right:50px;}
+	.initiative_minrals{ padding-left:60px;}
+	.minrals h2{ margin-right:50px;}
+	.minrals{ padding-left:60px;}
+	.latest-listing-pagination .page-no{margin:0px 8px;}
 
 }
 @media only screen and (max-width:399px){
 	.latest-listing-pagination{font-size:14px;}
 	.left_side span{float:left; padding-left:0px;}
+	.pagination-operations{padding:5px 0px;}
+	.pagination-operations img {height: 20px;margin-top: -5px;width: 10px;}
+	.latest-listing-pagination .page-no{padding:5px; margin:0px 5px;}
 }
 @media only screen and (max-width:350px){
 .tree_branch{ width:100% !important; background-size:145% 82.3% !important; padding-left:45px;}
@@ -77,5 +115,7 @@
 .tree_branch h2{ margin-left:-78px;}
 .tree_branch h3{ margin-left:-63px;}
 .bottom_paragraph{ margin-left:-36px !important;}
+.initiative_minrals h2{ margin-right:22px !important;}
+.minrals h2{ margin-right:22px !important;}
 
 }

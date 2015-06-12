@@ -44,6 +44,7 @@ a{ text-decoration:none;}
 .navigation{ margin-top:34px; padding-left:0px;}
 .logo{ margin-top:24px;}
 .active{ border-bottom:4px solid #fff;}
+.active:hover {border-bottom: 4px solid #ffeb00 !important;}
 /************* header css end here ****************/
 /************* slider banner css start here ********/
 .page-banner{ background-size:cover;border-bottom:6px solid #ffed00; position:relative;  min-height: 660px;}
@@ -51,7 +52,7 @@ a{ text-decoration:none;}
 .page-banner h3{color:#fff; text-transform:uppercase; border-bottom:2px solid #fff200; float:left; clear:both; font-size:40px; font-weight:bold;}
 .banner_test h3{color:#fff; text-transform:uppercase; border-bottom:4px solid #fff200; float:left; clear:both; font-size:40px; font-weight:bold;}
 .wgv_logo{ float:left; clear:both;position:absolute;bottom:-40px;left:144px;}
-.contact_banner .wgv_logo{bottom: -218px;right:27px;}
+.contact_banner .wgv_logo{bottom: -218px;right:41px;}
 .latest .wgv_logo{bottom: -218px;right:27px;}
 .latest_new .wgv_logo{bottom: -218px;right:27px;}
 .story_banner .wgv_logo{bottom: -218px;right:27px;}
@@ -63,8 +64,8 @@ a{ text-decoration:none;}
 .yellow1{ padding: 8px 7px; width: 40px; margin-top:-1px; background:#ffed00; color:#000; font-size:14px;}
 .inovation_search h2{ text-transform:uppercase; font-family:'CactusMedium-Regular'; font-size:45px; color:#ffed00; width:80%; margin-top:26px; margin-bottom:15px;}
 .innovation_test{font-family:'Helvetica-Regular'; font-size:16px; line-height:15px; color:#fff; width:211px; margin-bottom:29px;}
-.inovation_search h4{ clear:both; color:#000; background:#ffeb00; font-family:'CactusMedium-Regular'; font-size:24px; float:left; padding:7px 31px;}
-.right_arrow{ float:left; padding:6.5px 10px; background:#fff; width:39px; text-align:center;}
+.inovation_search h4{ clear:both; color:#000; background:#ffeb00; font-family:'CactusMedium-Regular'; font-size:24px; float:left; padding:7px 33px;}
+.right_arrow{ float:left; padding:6px 10px; background:#fff; width:39px; text-align:center;}
 .last_search{ margin-top:5px;}
 .partner-brands {float: left;padding: 0 75px;width: 100%;}
 .partner-brands {float: left;padding: 0 75px;width: 100%;}
@@ -74,7 +75,7 @@ a{ text-decoration:none;}
 /* ------------------ Search box css ------------------ */
 .slide_search{
 	width:0%;
-	max-width:204px;
+	max-width:208px;
 	-webkit-transition: width 0.3s ease-in-out;
 	-moz-transition: width 0.3s ease-in-out;
 	-o-transition: width 0.3s ease-in-out;
@@ -149,9 +150,12 @@ a{ text-decoration:none;}
 .brands{ text-align:center;}
 .margin_bottm{ margin-bottom:45px;}
 .clr{ clear:both;}
-.bottom_text{ font-family:'CactusBold-Regular'; font-size:34px; text-align:center; color:#000; margin-top:45px; margin-bottom:50px;}
+.bottom_text{ font-family:'CactusBold-Regular'; font-size:24px; text-align:center; color:#000; margin-top:45px; margin-bottom:50px;}
 .video_img{ margin-top:35px;}
 
+.read_more:hover, .read_more:focus, .read_more:active {color: #ffed00 !important; text-decoration:none;}
+.image-caption {margin: 0px 0px 10px 0px !important;padding: 0 !important;text-align: center;}
+.dotted_bg p a:hover, .dotted_bg p a:focus, .dotted_bg p a:active{color:#000000; text-decoration:none;}
 /* ---------- Options button animmation start here ----------- */
 
 .initiative-community-opt{width:110px; height:110px; background-size:cover !important;}
@@ -172,6 +176,7 @@ a{ text-decoration:none;}
 .opt-landscape:hover{background:url(../img/animations/landscape.gif) no-repeat; background-size:cover;}
 .opt-planet:hover{background:url(../img/animations/planet.gif) no-repeat; background-size:cover;}
 .opt-house:hover{background:url(../img/animations/home.gif) no-repeat; background-size:cover;}
+.dotted_bg a{ text-decoration:underline;}
 /* ----------- Options button animmation end here ----------- */
 
 
@@ -221,9 +226,12 @@ a{ text-decoration:none;}
  text-transform:capitalize; color:#787878;}
 .width50{ width:60%; background:#000; border:none; border-radius:0px; color:#fff; font-size:16px;}
 .additional_padding{ margin-left: -54px;  width: 36%;}
+.required-field {color: #cf1210;}
 .black_box{ border:1px solid; background:#000; color:#fff; padding:20px; font-family:'Helvetica-Regular'; font-size:14px; margin-top:60px;}
 .contact_wrapper{background:url(../img/contact_bodybg.png) no-repeat; background-size:100% 100%;}
 .subhmit{ float:left; margin-top:30px; padding:3px 30px; background:#ffed00;font-size:32px; font-family:'CactusMedium-Regular'; color:#000; border:none;}
+.sbHolder .sbOptions{background:#FFED00; width:100%;}
+.sbHolder .sbOptions li a{color:#000000 !important;}
 /************* contact page css end here ***********/
 /************* latest page css start here **********/
 .latest_wrapper{  background:url(../img/latest_bodybg.png) no-repeat;  background-size:100% 100%;}
@@ -233,7 +241,7 @@ a{ text-decoration:none;}
 .latest_information .col-md-7{background:#ffffff;}
 .about_head{ font-size:45px; font-family:'CactusMedium-Regular'; color:#000; text-transform:uppercase;}
 .water_head{  font-family:'CactusBold-Regular'; font-size:84px;  color:#000; text-transform:uppercase;}
-.articles{ float:left; width:100%; margin-bottom:30px;}
+.articles{ float:left; width:100%; margin-bottom:30px; margin-top:30px;}
 .articles h3{ font-size:64px; font-family:'CactusMedium-Regular'; float:left; border-bottom:2px dotted #000; }
 .yellow_bg{ margin-left: -100px; padding-left: 95px; width: 53%; background:#ffed00;}
 .articles p{ font-family:'Helvetica-Regular'; font-size:16px; float:left; clear:both; margin-bottom:16px;}
@@ -267,11 +275,12 @@ a{ text-decoration:none;}
 .photovoltaic{ width:136px;}
 .compost{ width:109px;}
 .insulation{ width:116px;}
-.latest-listing-pagination {float: left;padding-bottom: 30px;text-align: right;width: 100%; font-size:24px}
+.latest-listing-pagination {float: left;padding-bottom: 30px;text-align: right;width: 100%; font-size:24px; font-family:CactusMedium-Regular;}
 .latest-listing-pagination .page-no {border: 2px solid #ffed00;margin: 0 10px;padding: 8px 8px 8px 12px;text-align: center;}
 .latest-listing-pagination .page-no.selected{background:#ffed00;}
-.pagination-operations{background: #ffed00 none repeat scroll 0 0; padding-left: 4px; padding-bottom:4px;}
-.pagination-operations.next{padding-left: 4px; padding-bottom:4px; padding-right:4px;}
+.pagination-operations{background: #ffed00 none repeat scroll 0 0; padding: 5px 6px;}
+/*.pagination-operations.next{padding-left: 4px; padding-bottom:4px; padding-right:4px;}*/
+.pagination-operations img{ margin-top:-5px;}
 .latest-listing-pagination a{color:#000000;}
 .latest-listing-pagination span:hover{background:#ffed00;}
 .latest-listing-pagination a:hover{text-decoration:none;}
@@ -281,16 +290,19 @@ a{ text-decoration:none;}
 .latest_buttons p a{ width:auto; padding: 5px 0 5px 5px;}
 .latest_buttons p a span{ padding: 7px 10px;}
 .read-more-panel {float: left;width: 100%;}
-.read-more-panel .read_more {
-    float: left;
-}
+.read-more-panel .read_more {float: left;}
+
+.articles h3 a:hover{color:#2a6496 !important;}
+.latest_information .articles h3{background: #ffed00 none repeat scroll 0 0;border-bottom: none;float: left;font-family: "CactusMedium-Regular";font-size: 64px;margin-left: -4%;padding-bottom: 5px;padding-left: 4%;padding-right: 4%;}
+.latest_information .articles h3 a{float:left; border-bottom:2px dotted #000; color:#000; padding-bottom:8px;}
+.energy_buttons a:hover , .energy_buttons:focus, .energy_buttons a:active{color:#2a6496 !important;}
 /************* latest page css end here ************/
 
 /************* initative page css start here *******/
 .topsearch{ float:right;}
 .initiative_banner .inovation_search{ background:none;}
 .initiative_search{ background:none; padding:0px; float:right; margin-top:40px;} 
-.initiative_body{ width:100%; padding-top:30px; background:url(../img/initative_bg.png) no-repeat center top;}
+.initiative_body{ width:100%; padding-top:30px; background:url(../img/initative_bg.png) no-repeat center top; background-size:cover;}
 .social_machins{ width:730px; margin:0px auto;}
 .initiative_minrals{ text-align:center; margin-top:25px;}
 .initiative_minrals h2{ font-family:'CactusMedium-Regular'; font-size:20px; text-transform:uppercase; color:#000; margin-top:15px;}
@@ -298,8 +310,8 @@ a{ text-decoration:none;}
 .initiative_living{ margin-top:70px; width:100%; clear:both; float:left; margin-bottom:50px;}
 .left_side h2{ font-family:'CactusMedium-Regular'; font-size:64px; text-transform:uppercase; float:left; margin-bottom:40	px; margin-bottom:60px;}
 .left_side span{ font-family:'CactusBold-Regular'; font-size:120px; margin-top:-10px; text-transform:uppercase; float:right; padding-left:15px;}
-.left_side p{ font-family:'Helvetica-Regular'; font-size:16px; color:#333333; line-height:24px; clear:both;}
-.kichen_img{ margin-top:10px; margin-bottom:30px;}
+.left_side p{ font-family:'Helvetica-Regular'; font-size:16px; color:#333333; line-height:24px; clear:both; margin: 0 0 1.1em !important;}
+.kichen_img{ margin-top:10px; margin-bottom:5px;}
 .initiative_socialnav{ margin-top:25px; margin-bottom:80px; }
 .initiative_socialnav li{ list-style:none; margin-right:5px; display:inline;} 
 .right_side{ padding-top:90px;}
@@ -324,6 +336,7 @@ a{ text-decoration:none;}
 .button_resource{background: hsl(0, 0%, 0%) none repeat scroll 0 0; border: 1px solid; clear: both; float: left; padding: 6px 0 6px 15px; width: 141px;}
 .button_resource a{color: hsl(0, 0%, 100%); font-family: "CactusMedium-Regular"; font-size: 24px; text-decoration: none; text-transform: uppercase;}
 .left_side{ width:740px; margin:0px auto;}
+
 /************* initative page css end here *******/
 /************* second latest page css start here *****/
 .latestarticle_wrapper .inovation_search{ background:none;}
@@ -336,7 +349,7 @@ a{ text-decoration:none;}
 .page_heading{ width:546px;  font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; margin-bottom:25px; padding-left:90px;}
 .date_format{ font-size:10px; font-family:'Helvetica-Regular'; margin-top:42px;}
 .newlatest_wrapper .page_heading {padding-left:0px !important;}
-.boy_bath{ margin-top:30px; margin-bottom:35px; padding-left:30px !important; box-sizing:border-box;}
+.boy_bath{ margin-top:30px; margin-bottom:5px; padding-left:30px !important; box-sizing:border-box;}
 .first_paragraph{font-size:22px; font-family:'Helvetica-Regular'; color:#333333; width:782px; line-height:24px; margin-top:15px;}
 .last_paragraph{ width:812px; font-size:16px; font-family:'Helvetica-Regular'; color:#333333; line-height:24px;}
 .latest_nav{ margin-bottom:25px;}
@@ -363,10 +376,10 @@ a{ text-decoration:none;}
 .story_wrapper .banner_logo{ top:339px;}
 /*.story_banner{ background:url(../img/story_banner.png) no-repeat scroll center top / cover;}*/
 .story_banner .inovation_search{ background:none !important;}
-.story_section{ width:100%; padding:70px 0px; background:url(../img/story_bg.png) no-repeat center top;}
+.story_section{ width:100%; padding:70px 0px; background:url(../img/story_bg.png) no-repeat center top; background-size:cover;}
 .story_head{ font-size:120px; font-family:'CactusMedium-Regular'; border-bottom:10px solid #ffed00; padding-left:30px; padding-bottom:6px;}
 .left_wrapper p{ color:#787878; font-size:16px; font-family:'Helvetica-Regular'; margin-top:23px; margin-left:30px; line-height:24px; margin-bottom:15px;}
-.build_img{ margin-left:0px !important;}
+.build_img{ margin-left:0px !important; margin-bottom:5px !important;}
 .new_video{ }
 .video_head{  font-size:72px; font-family:'CactusMedium-Regular'; text-transform:uppercase; padding-left:30px; margin-top:90px;
 margin-bottom:70px;}
@@ -394,6 +407,10 @@ margin-bottom:70px;}
 .bottom_year{color:#fff; font-size:34px; padding:25px 0px 0px; font-family:'CactusMedium-Regular'; clear:both;}
 .bottom_paragraph{ width:416px; background:#ffed00; margin:4px auto; color:#787878; font-size:16px; font-family:'Helvetica-Regular'; padding:13px 21px 13px 22px; text-align:left;}
 .events_listing:nth-child(odd) {float:right; margin-top:-64px;}
+.tree_branch h2 a{color:#FFFFFF;}
+.tree_branch h2 a:hover, .tree_branch h2 a:focus, .tree_branch h2 a:active{color:#ffeb00; text-decoration:none;}
+.events_listing a{color:#FFFFFF;}
+.events_listing a:hover, .events_listing a:focus, .events_listing a:active{color:#ffeb00; text-decoration:none;}
 /************* story page css end here **************/
 
 /* ------------------------ home page video  ----------------------- */
@@ -408,6 +425,7 @@ margin-bottom:70px;}
 .body-content-section{background:#ffffff;}
 /************* land page css start here *************/
 .land_section{ width:100%; padding:35px 0px;}
+.land_content {padding-left: 15px;}
 .land_content h2{ margin-bottom:15px; text-transform:uppercase; font-size:62px; font-family:'CactusBold-Regular' }
 .our_devlopment{ text-align:center; background:#ffed00; border-radius:4px; width:14%; margin-right:28px; padding:20px 0px;}
 .our_devlopment h2{ font-size:32px; font-family:'CactusBold-Regular'; color:#333;}
@@ -416,7 +434,7 @@ margin-bottom:70px;}
 .map_section{ padding:30px 0px;}
 .map_zoom{ margin-top:15px;}
 .location_details p{ font-size:18px; font-family:'Helvetica-Regular'; line-height:30px;}
-.location_details ul{ margin-top:15px;} 
+.location_details ul{ margin-top:15px 0px 0px 15px;} 
 .location_details li{font-size:16px; font-family:'Helvetica-Regular'; line-height:30px;}
 .popup_buttons{ margin-top:20px;}
 .north{ width:190px; font-size:14px; font-family:'Helvetica-Regular'; background:#ffed00; border:none;}
@@ -432,3 +450,12 @@ margin-bottom:70px;}
 .west:hover{ background:#000; color:#fff;}
 .white-popup {position: relative;background: #FFF;padding: 40px;width: auto;max-width: 200px;margin: 20px auto;text-align: center;}
 /*--------------- Land page css ends here -------------*/
+
+.initiative_socialnav li:hover{ background:#ffed00;}
+.initiative_socialnav li{border: 1px solid hsl(211, 15%, 67%); color: hsl(212, 14%, 82%); display: inline;  font-size:25px;  padding:10px 17px; margin-right:5px; background:#000;}
+.fa-google-plus{ font-size:20px !important;}
+
+.social_nav li:hover{ background:#ffed00;}
+.social_nav li{border: 1px solid hsl(211, 15%, 67%); color: hsl(212, 14%, 82%); display: inline;  font-size:25px;  padding:10px 17px; margin-right:5px; background:#000;}
+.fa-google-plus{ font-size:20px !important;}
+
